@@ -1331,20 +1331,15 @@ h6 {
     top: -50px;
     padding: 24px;
   }
-  .section-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
   .section-description {
     text-align: center;
   }
   .contact-form-container {
     order: 1;
   }
-    .contact-text,
-    .about-text {
+     .contact-text,
+    .about-text,
+    .section-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1414,11 +1409,7 @@ h6 {
     padding: 24px;
   }
    .section-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     text-align: center;
-    flex-wrap: wrap;
   }
   .section-description {
     text-align: center;
@@ -1496,6 +1487,9 @@ h6 {
   }
   .card-content {
     padding: 5vw;
+}
+.section-title {
+  width: 80vw;
 }
 }
 @media print {
